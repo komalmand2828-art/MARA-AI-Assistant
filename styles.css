@@ -1,0 +1,56 @@
+/* Main Background */
+h1{
+    color: red !important;
+}
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+}
+/* Main Title */
+.main-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #00f5ff,
+        #7c3aed,
+        #ff0080
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+/* Cards */
+.metric-card {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    margin-bottom: 10px;
+}
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+/* Chat Input */
+.stChatInput {
+    border-radius: 15px;
+}
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    font-weight: bold;
+}
+/* Success Message */
+.stSuccess {
+    border-radius: 10px;
+}
+/* Info Box */
+.stInfo {
+    border-radius: 10px;
+}
